@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.alessandropiola.piccante.piccante.Fragment_2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@drawable/prod_terminato" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acquista 1 Busta"
+        android:id="@+id/buttonPoco"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Jalapeno Piccantezza media"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top" />
+
+</FrameLayout>
